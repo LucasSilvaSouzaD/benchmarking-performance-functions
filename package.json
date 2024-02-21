@@ -1,0 +1,27 @@
+{
+  "name": "benchmarking-performance-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasSilvaSouzaD/benchmarking-performance-functions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasSilvaSouzaD/benchmarking-performance-functions/issues"
+  },
+  "homepage": "https://github.com/LucasSilvaSouzaD/benchmarking-performance-functions#readme",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "uuid": "^9.0.1"
+  }
+}
