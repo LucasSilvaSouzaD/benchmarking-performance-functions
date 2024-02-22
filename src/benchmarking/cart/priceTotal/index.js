@@ -1,8 +1,8 @@
 import Benchmark from "benchmark";
 import database from '../../../database/index.js'
 
-import CartPriceFor from './commom/cart-price-for.js'
-import CartPriceReduce from './commom/cart-price-reduce.js'
+import CartPriceFor from './helpers/cart-price-for.js'
+import CartPriceReduce from './helpers/cart-price-reduce.js'
 
 const suite = new Benchmark.Suite;
 

@@ -1,4 +1,4 @@
-import Product from "./../../../../entities/Product.js"
+import Product from "../../../../entities/Product.js"
 
 export default class Cart {
   constructor({ products }) {
