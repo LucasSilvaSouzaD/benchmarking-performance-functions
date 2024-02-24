@@ -1,7 +1,7 @@
 import Benchmark from "benchmark";
 
-import CartUUID from './cart/cart-uuid.js'
-import CartCrypto from './cart/cart-crypto.js'
+import CartUUID from './helpers/cart-uuid.js'
+import CartCrypto from './helpers/cart-crypto.js'
 
 const suite = new Benchmark.Suite;
 suite
